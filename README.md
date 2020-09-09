@@ -7,7 +7,7 @@ This is a boilerplate for a code-challenge meant for Front-end engineers using R
 Switch to the branch of the technology of your expertise and follow the README:
 
 ```bash
-git checkout [react-native|angular]
+git checkout [react-native|angular|react]
 ```
 
 ## How to use
