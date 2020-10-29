@@ -79,7 +79,7 @@ class App extends React.Component {
         <input
           type="text"
           className="input"
-          placeholder="Pokemon or type!"
+          placeholder="Pokemon or type!!"
           onChange={this.handlerInputChange}
         />
         {loading && <div className="loader"></div>}
