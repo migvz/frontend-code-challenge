@@ -12,7 +12,7 @@
     },
     {
       "name": "gcr.io/cloud-builders/gsutil",
-      "args": ["-m", "cp", "-r", "build*", "gs://ch.miguelvelezzamora.com/"]
+      "args": ["-m", "cp", "-r", "build/", "gs://ch.miguelvelezzamora.com/"]
     }
   ]
 }
