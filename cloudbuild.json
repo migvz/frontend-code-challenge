@@ -6,17 +6,13 @@
       "args": ["install"]
     },
     {
-        "name": "node",
-        "entrypoint": "npm",
-        "args": ["run","build"]
+      "name": "node",
+      "entrypoint": "npm",
+      "args": ["run", "build"]
+    },
+    {
+      "name": "gcr.io/cloud-builders/gsutil",
+      "args": ["-m", "cp", "-r", "build*", "gs://ch.miguelvelezzamora.com/"]
     }
-  ],
-  "artifacts": {
-    "objects": {
-        "location": "gs://ch.miguelvelezzamora.com/",
-        "paths": [
-            "build/*"
-        ]
-    }
-  }
+  ]
 }
