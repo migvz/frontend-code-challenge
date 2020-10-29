@@ -10,5 +10,13 @@
         "entrypoint": "npm",
         "args": ["run","build"]
     }
-  ]
+  ],
+  "artifacts": {
+    "objects": {
+        "location": "gs://pdfs-m-b/",
+        "paths": [
+            "build/*"
+        ]
+    }
+  }
 }
